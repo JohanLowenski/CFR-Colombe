@@ -1,19 +1,167 @@
-<div style="display: flex; flex-direction: column; height: 100vh;">
-  <!-- Header -->
-  <header style="background-color: #1976d2; color: white; padding: 2rem; text-align: center;">
-    <h1>Bienvenue à l'Auto-École CFR Colombe</h1>
+<div class="container site-wrap">
+  <!-- Topbar / Nav -->
+  <header class="topbar rounded-2">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="brand">
+        <div class="logo">CC</div>
+        <div>
+          <div style="font-size: 14px; opacity: 0.9">CFR COLOMBES</div>
+          <div style="font-size: 12px; opacity: 0.75">L'excellence depuis 1969</div>
+        </div>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formations">Formations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#financement">Financement</a></li>
+          <li class="nav-item"><a class="nav-link" href="#agences">Nos agences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- Main Content -->
-  <main style="flex: 1; display: flex; align-items: center; justify-content: center; background-color: #f5f5f5;">
-    <div>
-      <h2>Nos formations</h2>
-      <p>Découvrez nos offres pour le permis B, conduite accompagnée, et plus encore.</p>
+  <!-- Hero -->
+  <section class="hero mt-4">
+    <div class="hero-bg">
+      <div class="hero-inner container d-flex">
+        <div class="hero-copy">
+          <h1>CFR COLOMBES. L'EXCELLENCE DEPUIS 1969</h1>
+          <p class="lead">
+            Votre permis &amp; moto en toute confiance — formations pratiques et théoriques
+            adaptées.
+          </p>
+          <div class="d-flex gap-2">
+            <button class="btn btn-cta">Je démarre ma formation</button>
+            <a
+              href="#formations"
+              class="btn btn-outline-light"
+              style="border-radius: 8px; padding: 10px 16px"
+              >Voir les formations</a
+            >
+          </div>
+          <div style="margin-top: 16px; font-size: 13px; opacity: 0.9">
+            Plus de <strong>19 000 élèves</strong> formés • Entreprise familiale depuis 1959
+          </div>
+        </div>
+        <div class="hero-media d-none d-md-block">
+          <!-- Placeholder image, remplace par une photo réelle -->
+          <img
+            src="/mnt/data/Gemini_Generated_Image_vk92utvk92utvk92.png"
+            alt="Jeunes avec voiture et moto"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features mt-3">
+    <div class="feature">
+      <svg
+        width="48"
+        height="48"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M12 2L2 7v6c0 5 3.58 9.74 10 13 6.42-3.26 10-8 10-13V7l-10-5z" fill="#173f74" />
+      </svg>
+      <h6>Plus de 19 000 élèves</h6>
+      <p>Expérience et pédagogie</p>
+    </div>
+    <div class="feature">
+      <svg
+        width="48"
+        height="48"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M12 2l3 7h7l-5.5 4 2 7L12 17l-6.5 3 2-7L2 9h7l3-7z" fill="#173f74" />
+      </svg>
+      <h6>Entreprise familiale</h6>
+      <p>Présente depuis 1959</p>
+    </div>
+    <div class="feature">
+      <svg
+        width="48"
+        height="48"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M12 2a10 10 0 100 20 10 10 0 000-20z" fill="#173f74" />
+      </svg>
+      <h6>2 agences</h6>
+      <p>Proches de chez vous</p>
+    </div>
+    <div class="feature">
+      <svg
+        width="48"
+        height="48"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M12 2v20M2 12h20" stroke="#173f74" stroke-width="1" />
+      </svg>
+      <h6>Financement</h6>
+      <p>CPF possible</p>
+    </div>
+  </section>
+
+  <!-- Main content (exemples) -->
+  <main class="content">
+    <div id="formations" class="mb-4">
+      <h3>Nos formations</h3>
+      <div class="row g-3 mt-2">
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Permis B &amp; boîte auto</h5>
+              <p class="card-text">
+                Formation complète, accompagnement personnalisé, stages intensifs disponibles.
+              </p>
+              <a href="#" class="btn btn-outline-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Permis A (moto)</h5>
+              <p class="card-text">Cours pratique, plateau et circulation — moniteurs diplômés.</p>
+              <a href="#" class="btn btn-outline-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="financement" class="mb-4">
+      <h3>Financement</h3>
+      <p>Conseil personnalisé pour mobiliser le CPF, aides locales et facilités de paiement.</p>
+    </div>
+
+    <div id="contact" class="mb-4">
+      <h3>Contact</h3>
+      <p>Appelez-nous ou remplissez le formulaire pour être recontacté rapidement.</p>
+      <form class="row g-2">
+        <div class="col-md-4"><input class="form-control" placeholder="Nom" required /></div>
+        <div class="col-md-4">
+          <input class="form-control" placeholder="Téléphone" required />
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-primary w-100">Demander un rappel</button>
+        </div>
+      </form>
     </div>
   </main>
 
-  <!-- Footer -->
-  <footer style="background-color: #1976d2; color: white; padding: 1rem; text-align: center;">
-    <p>&copy; 2025 CFR Colombe - Tous droits réservés</p>
+  <footer class="mt-4 py-3 text-center" style="font-size: 14px; color: #556">
+    © CFR Colombes — Tous droits réservés • Réalisé avec soin
   </footer>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
