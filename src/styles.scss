@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary: #173f74; /* deep blue */
+  --accent: #f7a800; /* orange */
+  --muted: #f1f3f5;
+  --glass: rgba(255, 255, 255, 0.06);
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+body {
+  background: #efeff1;
+  color: #222;
+}
