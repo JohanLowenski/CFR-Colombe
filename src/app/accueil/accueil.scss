@@ -1,9 +1,9 @@
 /* mock monitor frame */
 .site-wrap {
-  max-width: 1200px;
+  max-width: 3860px;
   margin: 40px auto;
   padding: 18px;
-  background: #fff;
+  background: #f1f3f5;
   border-radius: 10px;
   box-shadow: 0 10px 40px rgba(20, 20, 30, 0.12);
 }
@@ -53,13 +53,34 @@ nav .nav-link {
       rgba(23, 63, 116, 0.55) 45%,
       rgba(0, 0, 0, 0.12) 100%
     ),
-    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt...'); /* replace with real image */
-  background-size: cover;
-  background-position: center;
+    url('../../assets/ChatGPT\ Image\ 21\ sept.\ 2025\,\ 16_43_56.png');
+  background-size: cover; /* occupe toute la largeur */
+  background-position: center center; /* force le centrage horizontal ET vertical */
+  background-repeat: no-repeat;
   height: 380px;
   display: flex;
   align-items: center;
+  // background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
+
+// .hero .hero-bg {
+//   background-image: linear-gradient(
+//       90deg,
+//       rgba(23, 63, 116, 0.88) 0%,
+//       rgba(23, 63, 116, 0.55) 45%,
+//       rgba(0, 0, 0, 0.12) 100%
+//     ),
+//     url('../../assets/ChatGPT\ Image\ 21\ sept.\ 2025\,\ 16_43_56.png'); /* replace with real image */
+//   background-size: cover;
+//   background-position: center;
+//   height: 380px;
+//   display: flex;
+//   align-items: center;
+//   object-fit: cover;
+// }
 .hero-inner {
   max-width: 980px;
   margin: auto;
@@ -112,7 +133,15 @@ nav .nav-link {
   display: flex;
   gap: 18px;
   justify-content: space-between;
+  .material-symbols-outlined {
+    font-size: 48px; /* taille réelle */
+    color: #173f74; /* couleur des icônes */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
+
 .feature {
   flex: 1;
   text-align: center;
